@@ -1,0 +1,21 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "shubham parikh",
+      "mobile": "9876543210",
+      "email": "xyze@example.com",
+      "accounts": [
+        {
+          "id": 101,
+          "type": "Savings",
+          "number": "1234",
+          "transactions": [
+            { "id": 1, "date": "2024-01-01", "header": "Salary", "amount": 1000 },
+            { "id": 2, "date": "2024-01-02", "header": "Groceries", "amount": -200 }
+          ]
+        }
+      ]
+    }
+  ]
+}

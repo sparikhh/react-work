@@ -1,0 +1,42 @@
+{
+  "customers": [
+    {
+      "id": "1001",
+      "name": "shubham Parikh",
+      "accounts": [
+        {
+          "id": 1,
+          "accountNumber": "****4567",
+          "balance": 12450,
+          "transactions": [
+            {
+              "id": 2,
+              "date": "2023-10-05",
+              "description": "salary",
+              "amount": "+3200"
+            },
+            {
+              "id": 1775461440299,
+              "date": "2026-04-14",
+              "description": "salaryy",
+              "amount": "20000"
+            },
+            {
+              "id": 1775463900810,
+              "date": "2026-04-15",
+              "description": "test",
+              "amount": "325345345"
+            },
+            {
+              "id": 1775621124423,
+              "date": "2026-04-30",
+              "description": "fuel",
+              "amount": "100"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

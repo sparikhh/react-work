@@ -1,0 +1,43 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "shubham parikh",
+      "accounts": [
+        {
+          "id": 1,
+          "accountNumber": "****4567",
+          "balance": 12450,
+          "transactions": [
+            {
+              "id": 1,
+              "date": "2023-10-01",
+              "description": "Online Transfer",
+              "amount": "500"
+            },
+            {
+              "id": 2,
+              "date": "2023-10-05",
+              "description": "Payroll",
+              "amount": "32400"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "accountNumber": "****8821",
+          "balance": 1205,
+          "transactions": [
+            {
+              "id": 3,
+              "date": "2023-09-28",
+              "description": "rent",
+              "amount": "6350"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
